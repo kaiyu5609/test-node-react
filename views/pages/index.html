@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta name="Author" content=""/>
+<meta name="Keywords" content=""/>
+<meta name="Description" content=""/>
+<title><%= title %></title>
+<link href="/libs/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet"/>
+<link href="/css/global.css" rel="stylesheet"/>
+</head>
+<body>
+	
+	<div class="container">
+		<header>
+			<h1>hello react</h1>
+		</header>
+		<ul class="nav nav-list">
+			<% list.forEach(function(item){ %>
+				<li><%= item.name %>&nbsp;&nbsp;&nbsp;￥<%= item.price %></li>
+			<% }) %>
+		</ul>
+		<div id="app" class="box"></div>
+	</div>
+
+	<script src="/build/bundle.js"></script>
+</body>
+</html>

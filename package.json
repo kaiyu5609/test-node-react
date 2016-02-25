@@ -1,0 +1,34 @@
+{
+  "name": "react-demo",
+  "version": "0.0.1",
+  "description": "react",
+  "main": "app.js",
+  "dependencies": {
+    "body-parser": "^1.14.2",
+    "express": "^4.13.3",
+    "jade": "^1.11.0",
+    "moment": "^2.10.6",
+    "underscore": "^1.8.3",
+    "mongoose": "^4.3.4"
+  },
+  "devDependencies": {
+    "backbone": "^1.2.3",
+    "css-loader": "^0.23.1",
+    "ejs": "^2.3.4",
+    "jquery": "^2.2.0",
+    "jsx-loader": "^0.13.2",
+    "marked": "^0.3.5",
+    "react": "^0.14.6",
+    "react-dom": "^0.14.6",
+    "style-loader": "^0.13.0"
+  },
+  "scripts": {
+    "build": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react"
+  ],
+  "author": "hd",
+  "license": "ISC"
+}
